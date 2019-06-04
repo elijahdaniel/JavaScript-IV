@@ -112,10 +112,23 @@ const anna = new Instructor({
     catchPhrase: 'Truth can only be found in one place: The code.'
 })
 
-console.log(jill);
-console.log(jill.demo('HTML'));
-console.log(jill.grade('Mary', 'HTML'));
+console.log(anna);
+console.log(anna.demo('HTML'));
+console.log(anna.grade('Anna', 'HTML'));
 
+
+const justin = new Instructor({
+    name: 'Justin',
+    age: 40,
+    location: 'San Jose, CA',
+    specialty: 'Javascript',
+    favLanguage: 'Node.js',
+    catchPhrase: 'You only live once.'
+})
+
+console.log(justin);
+console.log(justin.demo('Limelight'));
+console.log(justin.grade('Justin', 'CSS'));
 
 
 // Students
